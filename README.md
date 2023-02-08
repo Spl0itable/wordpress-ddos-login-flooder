@@ -4,7 +4,7 @@ A simple Python script to flood a WordPress login page with fake credentials usi
 
 ## Features
 
-- Cycles through random proxies from the scraped proxy list using the `fp` library to obfuscate true IP
+- Cycles through random, anonymous proxies from the scraped proxy list using the `fp` library to obfuscate true IP
 - Generates fake IP addresses, user agents, and credentials using the `faker` library
 - Sends spoofed `X-Forwarded-For`, `Fastly-Client-IP`, and `CF-Connecting-IP` headers to further obfuscate (Note: this will only work if server WAF/VCL is misconfigured and doesn't drop incoming headers)
 - Utilizes the `requests` library to make POST requests to the specified login page URL
