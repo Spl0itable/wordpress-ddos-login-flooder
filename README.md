@@ -8,7 +8,7 @@ A simple Python script to flood a WordPress login page with fake credentials usi
 - Generates fake IP addresses, user agents, and credentials using the `faker` library
 - Sends spoofed `X-Forwarded-For`, `Fastly-Client-IP`, and `CF-Connecting-IP` headers to further obfuscate (Note: this will only work if server WAF/VCL is misconfigured and doesn't drop incoming headers)
 - Utilizes the `requests` library to make POST requests to the specified login page URL
-- Uses the `termcolor` library to print success and error messages in different colors
+- Uses the `termcolor` library to print in different colors the success (green) and error (red) messages
 - Runs indefinitely with multiple threads concurrently to increase the rate of DDoS attempts
 
 ## Requirements
