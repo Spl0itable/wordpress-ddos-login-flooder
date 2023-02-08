@@ -1,6 +1,6 @@
 # WordPress Login Flooder (DDoS)
 
-A simple Python script to flood a WordPress login page with fake credentials using multithreading in order to DDoS the site.
+A simple Python script to flood a WordPress login page with fake credentials using multithreading in order to DDoS the site, through bypassing any caching layer and stressing the database and webserver.
 
 ## Features
 
