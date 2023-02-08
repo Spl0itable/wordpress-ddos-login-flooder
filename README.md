@@ -22,7 +22,7 @@ Using `pip install`
 
 ## Usage
 
-`python wp_login_flooder.py`
+`python3 wp_login_flooder.py`
 
 Enter the URL to the WordPress login page when prompted. The script will then continuously flood the login page with fake credentials using 100 concurrent threads. Successful login attempts and errors will be reported in the console.
 
